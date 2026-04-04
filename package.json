@@ -1,0 +1,36 @@
+{
+  "name": "api-mock-server",
+  "version": "1.0.0",
+  "description": "Configurable API mock server for testing — JSON routes, dynamic responses, delays, proxying",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "mock-api": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "test": "vitest run",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\"",
+    "format:check": "prettier --check \"**/*.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "author": "Quvantic <info@quvantic.com> (https://quvantic.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/mustafaautomation/api-mock-server.git" },
+  "homepage": "https://github.com/mustafaautomation/api-mock-server#readme",
+  "dependencies": { "express": "^4.21.0" },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "files": ["dist"]
+}
