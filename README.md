@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/mustafaautomation/api-mock-server/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafaautomation/api-mock-server/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 Configurable API mock server for testing. Define routes in JSON, get a running server with dynamic responses, request logging, and admin endpoints. Zero code required.
 
